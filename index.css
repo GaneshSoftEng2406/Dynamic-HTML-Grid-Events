@@ -1,0 +1,165 @@
+
+
+#product-list{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+  
+
+    
+    .left-side{
+      width:40%;
+      
+    }
+    .right-side{
+        width: 60%;
+        margin-top: 40%;
+      padding-top:1.5%;
+        padding-left: 30px;
+            margin: 0;
+      
+      }
+
+  .imgg{
+    width: 100%;
+    margin-top: 50px;
+   
+  }
+ 
+.allInfor{
+  margin-bottom: 40px;
+  
+}
+
+
+  
+  .h1{
+        font-weight: 300;
+    font-size: 44px;
+    letter-spacing: -2px;
+
+
+  }
+  .h4{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+            
+  }
+  .price{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+  }
+  .pValue{
+        color: #009688;
+    font-weight: bold;
+    
+  }
+  .desc{
+        margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+
+  }
+.desc1{
+
+  margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+      
+  }
+  .desc2{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+      
+  } 
+  .child2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .picS{
+    border: 2px solid #009688;
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    
+  }
+  .pics{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+   
+
+  }
+
+  .btN{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+.btN:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);    
+}
+
+@media screen and (max-width: 768px) {
+    #product-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .left-side {
+      width: 100%;
+    }
+    .right-side {
+      width: 100%;
+      margin-top: 40px;
+      padding-left: 30px;
+    }
+    .imgg {
+      margin-top: 30px;
+    }
+    .h1 {
+      font-size: 34px;
+    }
+    .h4 {
+      font-size: 14px;
+    }
+    .price {
+      font-size: 17px;
+    }
+    .child {
+      font-size: 14px;
+    }
+    .pValue{
+        font-size: 14px;
+    }
+    
+  }
+  
